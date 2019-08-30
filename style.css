@@ -47,7 +47,7 @@ p { color: #015a5a;
 }
 
 .main-blog {
-    width: 75%;
+    width: 75% ;
     float:left;
     padding-right: 30px;
     padding-top: 30px;
@@ -61,7 +61,7 @@ p { color: #015a5a;
 
 .laura {
 
-    width:25%;
+    width:25% ;
     float:left;
     border-top:10px solid #5f5b5b;
     padding-top: 30px;

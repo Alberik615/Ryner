@@ -3,18 +3,23 @@
     padding: 0;
     box-sizing:border-box; 
     text-align: center;
+    background-color: beige
     
 }
-
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
 h1 {
-    color:rgba(103, 8, 8, 0.62);
+    color:rgba(195, 20, 20, 0.62);
     font-size: 50px;
     font-family:fantasy;
     margin-bottom: 20px;
     text-align: center;
     }
 h2 {
-    color: #020283;
+    color: #050583;
     font-size: 30px;
     font-family: cursive; 
     margin-bottom: 10px;
@@ -38,10 +43,26 @@ p { color: #015a5a;
 
 .container {
    width: 1140px;
-   margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0 auto;
 }
 
 .main-blog {
-    background-color: #f4efdf;
+    width: 75%;
+    float:left;
+    padding-right: 30px;
+    padding-top: 30px;
+    
+}
+
+.sponsor {
+    padding-top: 40px;
+    
+}
+
+.laura {
+
+    width:25%;
+    float:left;
+    border-top:10px solid #5f5b5b;
+    padding-top: 30px;
 }

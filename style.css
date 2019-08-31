@@ -12,7 +12,7 @@
     clear:both;
 }
 h1 {
-    color:rgba(195, 20, 20, 0.62);
+    color:rgb(145, 16, 16);
     font-size: 50px;
     font-family:fantasy;
     margin-bottom: 20px;
@@ -28,6 +28,7 @@ h2 {
 p { color: #015a5a;
     font-size: 15px;
     font-family: sans-serif;
+    text-align: center;
 }
 . main {
     text-align: justify;
@@ -51,18 +52,33 @@ p { color: #015a5a;
     float:left;
     padding-right: 30px;
     padding-top: 30px;
-    
+    position: relative;
 }
-
 .sponsor {
     padding-top: 40px;
     
 }
 
 .laura {
+     box-sizing: content-box;
+   
+    float:none
+    text-align:center;
+}
 
-    width: 25%;
-    float:left;
-    border-top:10px solid #5f5b5b;
-    padding-top: 30px;
+.other {
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+.kevin img{
+    height: 150px;
+    width: 100px;
+    border-radius: 50%;
+    }
+.date {
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    
+    
 }
